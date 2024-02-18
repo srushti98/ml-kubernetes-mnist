@@ -1,6 +1,6 @@
-In this repository, we will develop Container and Kubernetes artifacts, perform DL training and DL Inference hosting in GKE: Google Kubernetes Engine.
+In this repository, we will develop Container and Kubernetes artifacts, perform **DL training and DL Inference hosting in GKE: Google Kubernetes Engine.**
 
-Kubernetes, is an open-source platform designed to automate the deployment, scaling, and operation of application containers. Google Kubernetes Engine[7] is a managed service provided by Google Cloud Platform (GCP) that allows you to deploy, manage, and scale containerized applications using Kubernetes. GKE gives you a Kubernetes environment on Google’s infrastructure, removing the need to install, manage, and operate your own Kubernetes clusters. Key aspects of GKE include:
+*Kubernetes*, is an open-source platform designed to automate the deployment, scaling, and operation of application containers. *Google Kubernetes Engine*[7] is a managed service provided by Google Cloud Platform (GCP) that allows you to deploy, manage, and scale containerized applications using Kubernetes. GKE gives you a Kubernetes environment on Google’s infrastructure, removing the need to install, manage, and operate your own Kubernetes clusters. Key aspects of GKE include:
 Managed Kubernetes, Integration with Google Cloud, Scalability, Security, High Availability.
 
 We would be using the code `mnist-rnn` from the `https://github.com/pytorch/examples/tree/main/mnist_rnn` repository.
