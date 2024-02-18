@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: mnist-inference-service
+spec:
+  selector:
+    app: mnist-inference
+  ports:
+    - protocol: TCP
+      port: 80
+      targetPort: 7860
+  type: LoadBalancer

@@ -1,0 +1,28 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: mnist-inference-deployment
+  labels:
+    app: mnist-inference
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: mnist-inference
+  template:
+    metadata:
+      labels:
+        app: mnist-inference
+    spec:
+      containers:
+      - name: inference-container
+        image: srush98/infermnistrnnfinal:latest
+        ports:
+        - containerPort: 7860
+        volumeMounts:
+        - mountPath: "/model"
+          name: model-volume
+      volumes:
+      - name: model-volume
+        persistentVolumeClaim:
+          claimName: mnist-model-pvc
