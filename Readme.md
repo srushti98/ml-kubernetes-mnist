@@ -5,6 +5,8 @@ Managed Kubernetes, Integration with Google Cloud, Scalability, Security, High A
 
 We would be using the code `mnist-rnn` from the `https://github.com/pytorch/examples/tree/main/mnist_rnn` repository.
 
+![kubernetes workflow](https://github.com/srushti98/ml-kubernetes-mnist/blob/main/kubernetes_workflow.png)
+
 We would first create a cluster, attach the PVC file and then run the necessary steps for training and testing the mnist-rnn code.
 
 ### PART A: Creation of cluster on GKE[7]
@@ -64,6 +66,8 @@ I will be using the gradio library for user interaction. The gradio related code
 10. Once this is entered in the console, it will give a link for deployed app.
 11. This will be the url where the app will be deployed and be accessed.
 12. We can see the gradio interface[9], upload any image from mnist data and you will see the prediction on the screen as output.
+
+![Screenshot](https://github.com/srushti98/ml-kubernetes-mnist/blob/main/app_screenshot.png)
 
 ### References:
 
