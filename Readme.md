@@ -85,7 +85,7 @@ https://en.wikipedia.org/wiki/Containerization_(computing)
 [7] GKE official documentation => https://cloud.google.com/kubernetes-engine?hl=en
 
 [8] Medium blog of deploying containers to kubernetes =>
-https://tsai-liming.medium.com/part-3-deploying-your-data-science-containers-to-kubern etes-aaae769144ec
+https://tsai-liming.medium.com/part-3-deploying-your-data-science-containers-to-kubernetes-aaae769144ec
 
 [9] Gradio documentation => https://www.gradio.app/docs/interface
 
