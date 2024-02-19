@@ -1,3 +1,5 @@
+## TRAINING AND DEPLOYING MNIST-RNN ON KUBERNETES(K8S GCP) AND USING DOCKER FOR CONTAINERISATION
+
 This contains steps to create k8s cluster on GCP, creating persistant storage for cluster, training & inferencing DL workload on kubernetes.
 
 In this repository, we will develop Container and Kubernetes artifacts, perform **DL training and DL Inference hosting in GKE: Google Kubernetes Engine.**
